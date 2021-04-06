@@ -3,4 +3,4 @@
 <h2>本文</h2>
 <p><%=@list.body %></p>
 
-<%= f.submit '編集' %>
+<%=link_to '編集', edit_todolist_path(@list.id) %>
